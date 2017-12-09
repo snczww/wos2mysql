@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../python/bishe/.idea/bishe.iml" filepath="$PROJECT_DIR$/../python/bishe/.idea/bishe.iml" />
+      <module fileurl="file://D:/bishe/.idea/bishe.iml" filepath="D:/bishe/.idea/bishe.iml" />
       <module fileurl="file://D:/xpteam1/.idea/xpteam1.iml" filepath="D:/xpteam1/.idea/xpteam1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/zhaolaoshi.iml" filepath="$PROJECT_DIR$/.idea/zhaolaoshi.iml" />
     </modules>
