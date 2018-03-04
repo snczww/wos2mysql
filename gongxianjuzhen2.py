@@ -84,7 +84,7 @@ def putdata_intotxt(path,matrix):
             f.write('\n')
 
 def main():
-    path_xls = r'test.xlsx'     #---测试数据---
+    path_xls = r'outt.xlsx'     #---测试数据---
     path_txt= r'共现矩阵.txt'    #---测试数据---
     colnum = 0
     data = readxls_bycol(path_xls,colnum)

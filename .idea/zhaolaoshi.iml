@@ -5,8 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="bishe" />
-    <orderEntry type="module" module-name="xpteam1" />
-    <orderEntry type="module" module-name="bishe" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />
