@@ -120,18 +120,25 @@ def count_matrix(matrix, formated_data):
                 matrix[col][row]=matrix[row][col]
     return matrix
 
+def putdata_intotxt(path,matrix):
+    with open(path,'w') as f :
+        for row in range(0,len(matrix)):
+            for col in range(0,len(matrix)):#二维列表中的每一个元素都走一遍
+                f.write(str(matrix[row][col]) + '\t')  #因为write()只接字符串类型啊
+            f.write('\n')
 
 def main():
     keyword_path = r'outt.xlsx'
-    output_path = r'1.txt'
+    output_path = r'2zl共现矩阵.txt'
     data = readxls_col(keyword_path)[0]
     dict1=get_dict(data)
-    set_key_list = get_set_key(dict1,1)
+    set_key_list = get_set_key(dict1,2)
     formated_data = format_data(data,set_key_list)
     matrix = build_matirx(set_key_list)
     matrix = init_matrix(set_key_list, matrix)
     result_matrix = count_matrix(matrix, formated_data)
-    np.savetxt(output_path, result_matrix, fmt=('%s,'*len(matrix))[:-1])
+    putdata_intotxt(output_path, result_matrix)
+    #np.savetxt(output_path, result_matrix, fmt=('%s,'*len(matrix))[:-1])
 
 if __name__ == '__main__':
     main()

@@ -8,7 +8,7 @@ Created on Sat Jan  6 11:11:29 2018
  
 import pandas as pd
 df = pd.read_csv(r'D:\sourcecode\zhaolaoshi\dict.csv') 
-f=open(r'D:\sourcecode\zhaolaoshi\papdict.csv')
+f=open(r'D:\sourcecode\zhaolaoshi\zldict.csv')
 out=open('D:\out.txt','w')
 fr=f.read()
 fr=fr.lower()
