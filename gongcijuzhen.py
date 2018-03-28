@@ -129,10 +129,10 @@ def putdata_intotxt(path,matrix):
 
 def main():
     keyword_path = r'outt.xlsx'
-    output_path = r'2zl共现矩阵.txt'
+    output_path = r'paper+zl3共现矩阵.txt'
     data = readxls_col(keyword_path)[0]
     dict1=get_dict(data)
-    set_key_list = get_set_key(dict1,2)
+    set_key_list = get_set_key(dict1,3)
     formated_data = format_data(data,set_key_list)
     matrix = build_matirx(set_key_list)
     matrix = init_matrix(set_key_list, matrix)
