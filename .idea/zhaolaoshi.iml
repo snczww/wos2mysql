@@ -2,7 +2,7 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.5.2 virtualenv at D:\zwPython\py35" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6.2 (D:\zwPython\py36\python-3.6.2.amd64\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="bishe" />
   </component>
